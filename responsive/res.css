@@ -1,0 +1,103 @@
+@media screen and (max-width: 1199.98px) {
+    /* SLIDER */
+    #carouseCyber .carousel-caption{
+        top: 50%;
+    }
+    #carouseCyber .carousel-caption h1{ 
+        font-size: 4vw;
+    }
+    #carouseCyber .carousel-caption p{
+        font-size: 1.6vw;
+        margin-bottom: 0.5em;
+    }
+    #carouseCyber .carousel-caption button{
+        font-size: 1.5vw;
+        padding: 0.8em  1em ;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    /* HEARDER */
+    .navbar-brand p:nth-child(1){
+        font-size: 3vw;
+    }
+    .footer__form label{
+        text-align: left;
+        transform:translateX(10px)
+    }
+} 
+
+@media screen and (max-width:767.98px){
+     /* HEARDER */
+   #navbarInstruction .navbar-nav{
+    background-color: #eee;
+    text-align: center;
+   }
+   #navbarInstruction .dropdown-menu{
+    background-color: #e0e1e2;
+    border-color: #e0e1e2;
+    text-align: center;
+    
+   }
+   #navbarInstruction .dropdown-item{
+    color: black;
+   }
+}
+@media screen and (max-width:575.98px){
+     /* HEARDER */
+     .heading p{
+        padding: 0 15px;
+     }
+    .header__left a{
+        display: block;
+    }
+    /* FOOTER */
+    .footer__form button{
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+    }
+}
+@media screen and (max-width:415px){
+    /* SLIDER */
+    #carouseCyber{
+        height: 250px;
+    }
+    #carouseCyber .carousel-inner, #carouseCyber  .carousel-item, #carouseCyber .carousel-item img{
+        height: 100%;
+    }
+    #carouseCyber .carousel-item img{
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width:376px){
+     /* HEARDER */
+    .header__right{
+        width: 35%;
+        text-align: center;
+    }
+    .header__right a{
+        margin-bottom: 5px;
+    }  
+}
+@media screen and (min-width:768px) and (max-width:992px){
+     /* HEARDER */
+    #navbarInstruction .nav-item{
+        margin: 0;
+        padding: 0 2px;
+    }
+    #navbarInstruction .nav-link{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+@media screen and (min-width:575px) and (max-width:992px){
+    .feedback__bottom{
+        width: 85%;
+    }
+}
+@media screen and (max-width:376px){
+    .feedback__bottom{
+        width: 100%;
+    }
+}
